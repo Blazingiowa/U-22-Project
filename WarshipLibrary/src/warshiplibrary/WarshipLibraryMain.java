@@ -29,7 +29,7 @@ public class WarshipLibraryMain extends JFrame implements ActionListener
 	WarshipLibraryMain(String title)
 	{
 
-		setTitle(title);//フレームのタイトル表示					
+		setTitle(title);					
 		setBounds(100, 100, 1500, 960);//フレームの位置指定
 		frame = new JFrame();
 		frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
